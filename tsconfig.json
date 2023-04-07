@@ -1,0 +1,8 @@
+{
+  "files": ["index.ts"],
+  "complierOptions": {
+    "module": "commonjs",
+    "target": "es5",
+    "declaration": true
+  }
+}
