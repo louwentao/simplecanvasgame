@@ -115,6 +115,7 @@ export function getPointsV4(node:Node,p4:[IData.IPosition, IData.IPosition, IDat
 
     return getPointsV4(node.parent,[leftTopWorldPoint, rightTopWorldPoint, rightLowerWorldPoint, leftLowerWorldPoint]);
 }
+
 /**
 * 将世界坐标转换为自身的相对父级坐标
 * 1、将父级node与点击点一同逆旋转回横平竖直状态
